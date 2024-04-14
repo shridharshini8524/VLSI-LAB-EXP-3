@@ -1,4 +1,6 @@
 SIMULATION AND IMPLEMENTATION OF MULTIPLIER
+
+
 **AIM: **
 
 
@@ -16,51 +18,69 @@ Spartan6 FPGA
 STEP:1  Start  the Xilinx navigator, Select and Name the New project.
 
 
+
 STEP:2  Select the device family, device, package and speed.     
+
 
 
 STEP:3  Select new source in the New Project and select Verilog Module as the Source type.  
 
 
+
 STEP:4  Type the File Name and Click Next and then finish button. Type the code and save it.
+
 
 
 STEP:5  Select the Behavioral Simulation in the Source Window and click the check syntax.     
 
 
+
 STEP:6  Click the simulation to simulate the program and  give the inputs and verify the outputs as per the truth table.   
+
 
 
 STEP:7  Select the Implementation in the Sources Window and select the required file in the Processes Window.
 
 
+
 STEP:8  Select Check Syntax from the Synthesize  XST Process. Double Click in the  FloorplanArea/IO/Logic-Post Synthesis process in the User Constraints process group. UCF(User constraint File) is obtained. 
+
 
 
 STEP:9  In the Design Object List Window, enter the pin location for each pin in the Loc column Select save from the File menu.
 
 
+
 STEP:10 Double click on the Implement Design and double click on the Generate Programming File to create a bitstream of the design.(.v) file is converted into .bit file here.
+
 
 
 STEP:11  On the board, by giving required input, the LEDs starts to glow light, indicating the output.
 
 
 
+
 **Logic Diagram**
+
+
 2 bit Multiplier
+
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-3/assets/6987778/7713750f-65e6-41c0-8082-5005eac4031c)
 
+
 **4 Bit Multiplier**
 
+
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-3/assets/6987778/d95215dd-8cf1-4e08-93cc-96adfdd7fbdc)
+
 
 
 **Verilog code**
 
 
  Multiplexer 2bit:
+ 
 ~~~
 ha adder2(w3,w4,p[2],cout);
 module ha(a,b,sum,carry);
@@ -83,6 +103,7 @@ endmodule
 ~~~
 
 4 bit multiplier:
+
 ~~~
 module ha(a,b,sum,carry);
 input a,b;
@@ -146,12 +167,15 @@ endmodule
 
  Multiplexer 2bit:
 
+
 ![WhatsApp Image 2024-04-14 at 20 33 20_20eaa738](https://github.com/shridharshini8524/VLSI-LAB-EXP-3/assets/148639799/0b808893-be78-4227-9764-e1162a6619c8)
 
 
 4 bit multiplier:
 
+
 ![WhatsApp Image 2024-04-14 at 20 34 22_e2c618ba](https://github.com/shridharshini8524/VLSI-LAB-EXP-3/assets/148639799/bd431f99-f0fb-47c0-90ee-2180706c1f17)
+
 
 
 **Result**
