@@ -84,6 +84,8 @@ STEP:11  On the board, by giving required input, the LEDs starts to glow light, 
 
 
 DEVELOPED BY:S.SHRIDHARSHINI
+
+
 REGISTER NUMBER:212222060240
 
 
