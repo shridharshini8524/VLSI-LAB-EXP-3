@@ -1,15 +1,14 @@
-SIMULATION AND IMPLEMENTATION OF MULTIPLIER
+Exp : 3
 
+DATE : 
 
+            SIMULATION AND IMPLEMENTATION OF MULTIPLIER
 
-
-**AIM: **
-
+AIM: 
 
  To simulate and synthesis multiplier using Xilinx ISE.
 
-
-**APPARATUS REQUIRED:**
+APPARATUS REQUIRED:
 
 
 Xilinx 14.7
