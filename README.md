@@ -6,14 +6,11 @@ DATE :
 
 AIM: 
 
- To simulate and synthesis multiplier using Xilinx ISE.
+ To simulate and synthesis multiplier using Vivado.
 
 APPARATUS REQUIRED:
 
-
-Xilinx 14.7
-Spartan6 FPGA
-
+Vivado software
   
 **PROCEDURE:**
 
